@@ -1,33 +1,113 @@
-#topo{
-    width: 100%;
-    background-color: #73b9ff;
-    height: 30px;
+body{
+    margin:0px;
 }
 
+#topo{
+    width: 100%;
+    background-color: #73B9ff;
+    height: 30px;
+    
+}
 .largura-site{
-    width: 900px;
+    width:900px;
     margin: auto;/*centraliza na página*/
 }
 
 #logotipo{
-    float: left;
+    width: 140px;
+    height: 24px;
+    float:left;
 }
+
 #menu{
-    float: right;
     width: auto;
     height: auto;
+    float:right;
     margin-top: 8px;
+    text-transform: uppercase;
     
 }
+
 #menu a{
     color:#fff;
     font-size: 16px;
-    text-decoration: none;
+    text-decoration: none;/*tira o sublinhado do menu*/
     margin-left: 50px;
-
+    
 }
 #menu a:hover{
-    text-decoration: underline;
+    text-decoration: underline; /* hover faz alguma coisa qdo o mouse está em cima, neste caso , fica com uma linha*/
+    
+    
+}
+
+.imghome{
+    float:right
+    margin: top 8px; /*classe utilizada nas img*/
+}
+
+#conteudohome{
+
+    width: 545px;
+    float: right;
+    height: auto;
+    margin-top: 100px;
+}
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    float:left;
+    border-bottom: 1px solid #73B9ff; /* Essa classe utilizar no home, quem somos, serviços, contatos e rodapé*/ 
+}
+#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    background-color: #73B9ff;
+    color: #fff;
+    text-align: center;
+}
+.imgright {
+    float: right;
+    margin-left: 10px;
+  
+}
+p{
+    color: #888;
+    float: size 18px;
+    text-align: justify;
+}
+h1{
+    color: #666;
+font-size: 30px;
+
+}
+ul{
+    color: #666;
+    float: size 14px;
+    list-style: square;/*altera marcado*/
+    list-style-position: inside;
+
+}
+form{
+    color: #888;
+    margin-bottom: 50px;
+}
+input[type=text]{
+    width: 300px;
+    height: 25px;
+    background-color: #73B9ff;
+    border: saddlebrown;
+
+}
+textarea{
+    width: 400px;
+    height: 140px;
+    background-color: bisque;
+    border: solid 1px;
+
 }
 
 

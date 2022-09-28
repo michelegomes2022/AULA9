@@ -1,32 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula9</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <title>aula9 site vertical</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
 </head>
-<body>
-   <div id="topo">
-            <div class="largura-site">
-                    <div id="logotipo">
-                                <img src="img/logo.png"
-                                    alt="logotipo site"/>
-                    </div><!--fecha logotipo-->
-                    <div id="menu">
-                        <a href="#">HOME</a>
-                        <a href="#">QUEM SOMOS</a>
-                        <a href="#">SERVIÇOS</a>
-                        <a href="#">CONTATO</a>
-                    </div><!--fecha menu-->
-            </div> <!--fecha largura do site-->
- </div> <!--fecha o topo-->
- <div class="largura site">
-      <div id=" Home"></div>   
-      <div id=" QUEMSOMOS"></div>   
-      <div id=" SIRVICO"></div>  
-      <div id=" CONTATO"></div>    
- </div>
+
+<body id="body">
+
+    <div id="topo">
+        <div class="largura-site">
+            <div id="logotipo">
+                <img src="img/logo.png" alt="logotipo do site">
+            </div><!-- fecha logo-->
+
+            <div id="menu">
+                <a href="#body">Home</a>
+                <a href="#quemsomos">Quem somos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contatos">Contatos</a>
+            </div>
+            <!--Fecha menu-->
+
+        </div>
+        <!--fecha classe-->
+
+    </div>
+    <!--Fecha topo-->
+
+    <div class="largura-site">
+        <!-- criado para fazer a divisão, onde engloba os centeúdos abaixo-->
+
+        <div class="conteudo" id="home">
+            <!--classe conteudo  aplicada-->
+            <img src="img/destaquehome.jpg" alt=" destaque página home dentista" class="imghome">
+            <!-- Classe imghome aplicada-->
+
+            <div id="conteudohome">
+                <!--div criada para separar a img da dentista, do texto e demais img no site-->
+
+                <h1>
+                    Bem vindo a Clínica DenteClean !
+                </h1>
+                <P>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eius fugit odit, earum omnis
+                    repellendus ipsum nostrum perferendis ex, placeat ea vitae, quaerat et pariatur aliquam nihil quia
+                    maiores. Praesentium.
+                </P>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor cum, qui amet numquam praesentium id
+                    modi a mollitia voluptatum vero repellat blanditiis nihil pariatur placeat illum sequi enim
+                    expedita.
+                    Commodi.
+                </p>
+
+                <img src="img/imghome1.jpg" alt=" imagem criança" class="imghome">
+                <img src="img/imghome2.jpg" alt="imagem casal" class="imghome">
+                <img src="img/imghome3.jpg" alt="moça no dentista" class="imghome">
+
+            </div>
+
+
+        </div>
+        <!--Fecha div home-->
+
+        <div class="conteudo" id="quemsomos">
+            <!--classe conteudo aplicada-->
+
+            <h1>
+                Quem Somos
+            </h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea perferendis a omnis consequuntur velit ab
+                tenetur, dolores sapiente facilis vitae incidunt nam neque ad maxime magni exercitationem vero tempore
+                soluta.
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore blanditiis commodi dolorem totam
+                aliquid delectus. Beatae, accusantium autem architecto unde quis cumque assumenda libero eos quos soluta
+                ullam maiores! Nulla?
+            </p>
+            <img src="img/destaquequemsomos.jpg" alt="imagem do quem somos">
+
+        </div>
+        <!--Fecha quem somos-->
+
+        <div class="conteudo" id="servicos">
+            <h1> Nossos Serviços</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam dolores perspiciatis accusamus optio
+                deserunt a, expedita molestiae ullam pariatur harum atque. Eligendi, repellat pariatur. Ullam non
+                similique minima est.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat obcaecati iste quisquam
+                reiciendis. Sequi voluptatibus nemo commodi corrupti culpa, dignissimos adipisci expedita, perferendis,
+                labore quaerat omnis praesentium velit repudiandae.
+            </p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas earum est dolorum eos non, velit
+                    nisi voluptatibus eius ipsa ipsam numquam officia ullam, cumque necessitatibus quisquam dolor
+                    aperiam? Provident!
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore repudiandae aperiam quos eligendi
+                    nesciunt dolor rem alias libero porro voluptatum soluta, amet cum, nobis deserunt, tempora culpa
+                    sequi ea architecto.
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, praesentium saepe debitis nesciunt
+                    consectetur repellat dolorum nam minus laborum dolores molestias neque provident, qui quidem, quo
+                    numquam facere cupiditate deleniti.
+            </ul>
+
+            <img src="img/destaqueservicos.jpg" alt="imagem dos nossos serviços" class="imgright">
+            <ul>
+        </div>
+        <div class="conteudo" id="contato">
+            <h1>contato</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum pariatur ex minima vero officiis
+                unde blanditiis
+                repudiandae accusamus nemo doloribus voluptates quod laboriosam repellendus culpa, esse labore debitis
+                natus expedita.
+            </p>
+            <img src="img/destaquecontato.jpg" alt="imagem de pessoa"class="imgright">
+            <form action="#">
+                Nome:<br />
+                <input type="text" placeholder="digite o nome">
+                E-mail:<br />
+                <input type="text" /><br />
+                mensagem:<br />
+                <textarea cols="10" rows="10">
+
+                            </textarea>
+
+                <input type="submit" value="enviar" />
+
+            </form>
+        </div>
+    </div>
+    <!--classe conteudo aplica-->
+
+
+
+    <!--classe conteudo aplica-->
+    <div class="conteudo" id="rodape">DenteClean todos os direito reservados.</div>
+    </div>
+
+    </div>
+    <!--classe conteudo aplica-->
+
+    </div>
+    <!--Fecha Class largura site da divisão do conteúdo acima-->
+
+
 </body>
+
 </html>
